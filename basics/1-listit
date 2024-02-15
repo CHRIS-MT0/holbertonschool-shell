@@ -1,2 +1,2 @@
 #!/bin/bash
-"\nls\n\n"
+echo -e "\nls\n\n"
