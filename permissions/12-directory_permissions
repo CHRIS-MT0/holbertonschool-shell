@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir mi_dir chmod 751 mi_dir
+chmod 751 mkdir mi_dir
