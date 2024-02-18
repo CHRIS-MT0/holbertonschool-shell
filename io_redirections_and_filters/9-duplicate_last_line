@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 iacta | tee -a iacta
+sed '$!d;N;s/\(.*\)\n\(.*\)/\1\n\1/' iacta
