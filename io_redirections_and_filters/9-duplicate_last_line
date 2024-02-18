@@ -1,2 +1,2 @@
 #!/bin/bash
-sed '$!d;N;s/\(.*\)\n\(.*\)/\1\n\1/' iacta
+awk iacta
