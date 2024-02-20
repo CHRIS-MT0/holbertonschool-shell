@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown vincent hello
+find . -name "hello" -user guillaume -exec sh -c chown vincent /bin/bash {} \)
