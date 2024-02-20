@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "hello" -user guillaume -exec sh -c chown vincent /bin/bash {} \)
+find . -name "hello" -user $(id -u guillaume) -exec sh -c 'chown vincent "$0"' {} \)
